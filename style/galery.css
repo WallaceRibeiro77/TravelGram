@@ -1,5 +1,5 @@
 #galery{
-    margin: 1.6rem;
+    margin: 1.6rem auto;
     .container{
         img{
             &:hover{

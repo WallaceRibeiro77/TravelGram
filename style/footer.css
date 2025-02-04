@@ -1,0 +1,21 @@
+footer{
+    padding: 1.6rem;
+    color: var(--text-color-secondary);
+    .polices{
+        a{
+            color: var(--text-color-secondary);
+            &:hover{
+                color: var(--brand-color);
+            }
+        }
+        
+    }
+}
+@media (width >= 80em){
+    footer{
+        .container{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}
