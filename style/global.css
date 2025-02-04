@@ -40,8 +40,14 @@ li, a{
 .flex{
     display: flex;
 }
+.column{
+    flex-direction: column;
+}
 .space{
     justify-content: space-between;
+}
+.just-center{
+    justify-content: center;
 }
 .align-center{
     align-items: center;
@@ -56,6 +62,9 @@ li, a{
 
 .gap-2\.4{
     gap: 1.6rem;
+}
+.gap-3\.2{
+    gap: 3.2rem;
 }
 
 body{

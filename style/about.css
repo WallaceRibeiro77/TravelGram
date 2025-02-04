@@ -1,0 +1,60 @@
+#about{
+    .container{
+        padding: 3.2rem;
+
+        .description{
+            img{
+                width: 12rem;
+                height: 12rem;
+                border-radius: 12rem;
+            }
+            .about-user{
+                h1{
+                    margin-bottom: .8rem;
+                }
+                p{
+                    color: var(--text-color-secondary);
+                }
+            }
+        }
+        .user-statics{
+    
+            .user-statics-wrapper{
+                color: var(--text-color-secondary);
+            }
+        }
+    }
+}
+@media (width >= 80em){
+    #about{
+        .container{
+            padding: 3.2rem 0;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            
+            .description{
+                flex-direction: row;
+                align-items: center;
+                gap: 3.2rem;
+
+                img{
+                    width: 17.6rem;
+                    height: 17.6rem;
+                }
+                .about-user{
+                    max-width: 38.4rem;
+                }
+            }
+            .user-statics{
+                padding-right: 10rem;
+                .user-statics-wrapper{
+                    span{
+                        font-size: var(--p-md);
+                    }
+                }
+            }
+        }
+    }
+
+}
