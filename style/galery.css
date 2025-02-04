@@ -1,0 +1,25 @@
+#galery{
+    margin: 1.6rem;
+    .container{
+        img{
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+@media (width >= 80em){
+    #galery{
+        .container{
+            padding: 2.4rem;
+            gap: 2.4rem;
+            flex-direction: row;
+            flex-wrap: wrap;
+    
+            img{
+                width: 28.6rem;
+            }
+        }
+    }
+}
